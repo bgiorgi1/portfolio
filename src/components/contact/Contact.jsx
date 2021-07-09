@@ -7,7 +7,7 @@ function Contact(props) {
         <h1>Get In Touch</h1>
        
         <p className="ContactBody">My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
-       <a href="mailto:brianna.giorgi@gmail.com" target="_blank"> <button className="email-link" rel="noopener noreferrer" >Say Hello</button></a>
+       <a href="mailto:brianna.giorgi@gmail.com" rel="noopener noreferrer"  target="_blank"> <button className="email-link" >Say Hello</button></a>
       
     </div>;
   }
