@@ -1,36 +1,69 @@
-.skills {
-    background-color: white;
-    padding-bottom: 5%;
-}
-
-.Skills p{
-    padding-left: 25%;
-    width: 50%;
-}
-
-.Skills .List ul {
-    color: white;
-    list-style-type: none;
-    padding: 0;
-}
-
-.Skills .Container {
+.Languages_title {
+    /* font-size: 60px; */
+    text-align: center;
+    /* display: flex;
+    font-family: "Arvo"; */
+    /* margin-left: 10%; */
+    margin-bottom: 1em;
+    margin-top: 1em;
+    color: #7c2629;
+    
+  }
+  .slashes {
+    color: #7c2629;
+    margin: auto 10px auto 10px;
+  }
+  .item_title {
+    color: var(--gold);
+    font-weight: 600;
+    padding-right: 10px;
+  }
+  .skills_list {
+    font-size: 24px;
+    line-height: 2em;
+  }
+  .skills_wrapper {
+    margin-left: 7%;
+    margin-top: -1.5em;
+    margin: -1.5% 10% auto 7%;
+  }
+  
+  .Languages {
     display: flex;
+    flex-direction: column;
+    color: black;
+    box-sizing: border-box;
+    grid-row: 3;
+    background-color: #F4F6FF;
+  }
+  .skills_item {
+    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.Skills .Container .List {
-    flex-basis: 33%;
-    background-color: black;
-    box-shadow: 0 0 12px 4px white;
-    border-radius: 9px;
-    margin-bottom: 2px;
-}
-
-.Skills .List ul li {
-    display: flex;
-    justify-content: center;
-    font-size: 18px;
-}
+    font-weight: 400;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .skills_list {
+      line-height: 30px;
+    }
+    .slashes {
+      margin: auto 7px;
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    .skills_item {
+      margin-top: 3%;
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+    .Languages_title {
+      margin-bottom: 0;
+    }
+    .skills_item {
+      margin-top: 6%;
+    }
+  }
+  

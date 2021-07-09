@@ -8,6 +8,8 @@ import "./App.scss"
 import { useState } from "react";
 import Menu from "./components/menu/Menu";
 import Skills from "./components/skills/Skills"
+import Projects from "./components/projects/Projects";
+import About from "./components/about/About"
 
 function App() {
   const [menuOpen,setMenuOpen] = useState(false)
@@ -17,10 +19,12 @@ function App() {
      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
      <div className="sections">
        <Intro/>
-       <Portfolio/>
-       <Works/>
-       <Contact/>
+       <About/>
+       <Projects/>
        <Skills/>
+       <Contact/>
+       
+      
      </div>
     </div>
   );
