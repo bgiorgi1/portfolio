@@ -10,7 +10,7 @@ export default function Intro() {
       showCursor: true,
       backDelay: 1500,
       backSpeed:60,
-      strings: ["Developer", "Designer", "Content Creator"],
+      strings: ["Software Developer", "Web Designer", "Content Creator", "Good Human"],
     });
   }, []);
 
@@ -26,7 +26,7 @@ export default function Intro() {
           <h2>Hi There, I'm</h2>
           <h1>Brianna Giorgi</h1>
           <h3>
-            Software <span ref={textRef}></span>
+             <span ref={textRef}></span>
           </h3>
         </div>
         <a href="#About">
