@@ -1,0 +1,29 @@
+.YouTube {
+  background-color: #f4f6ff;
+  color: #7c2629;
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.YTbody {
+  color: black;
+  margin-left: 7em;
+  margin-right: 7em;
+}
+
+.videos {
+  padding-top: 1%;
+  padding-left: 0.5%;
+  padding-right: 1%;
+}
+
+a {
+  font-weight: 500;
+  color: #7c2629;
+}
+
+a:hover {
+  font-weight: 500;
+  color: #10375c;
+}

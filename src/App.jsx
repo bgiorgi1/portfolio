@@ -10,6 +10,7 @@ import Menu from "./components/menu/Menu";
 import Skills from "./components/skills/Skills"
 import Projects from "./components/projects/Projects";
 import About from "./components/about/About"
+import YouTube from "./components/youtube/YouTube";
 
 function App() {
   const [menuOpen,setMenuOpen] = useState(false)
@@ -21,7 +22,9 @@ function App() {
        <Intro/>
        <About/>
        <Projects/>
+      
        <Skills/>
+       <YouTube/>
        <Contact/>
        
       
