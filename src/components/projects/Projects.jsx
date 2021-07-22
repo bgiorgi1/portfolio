@@ -15,9 +15,9 @@ return (
     <div className="col-md-4">
         <div className="team-member">
             <figure className="effect-zoe">
-                {/* <div className="project-photo">
-                    <img src="assets/SnippetMobile.png" alt="Snippets" class="img-responsive"/>
-                </div> */}
+                <div className="project-photo">
+                    <img src="assets/Snippets.png" alt="Snippets" width="400" class="img-responsive"/>
+                </div>
                 <div class="team-attrs">
                     <div class="team-name font-accident-two-bold-italic">Stealth Code</div>
                     <div class="team-position">JS | HTML/CSS | REACT | MONGODB | EXPRESS | NODE.JS</div>
@@ -28,8 +28,8 @@ return (
                 <figcaption>
 
                     <p class="icon-links">
-                        <a href="https://github.com/bgiorgi1/StealThisCode_FE"><i class="fa fa-github" ></i></a>
-                        <a href="https://stealth-code.herokuapp.com/"><i class="fa fa-external-link" ></i></a>
+                        <a href="https://github.com/bgiorgi1/StealThisCode_FE" rel="noopener noreferrer"  target="_blank"><i class="fa fa-github" ></i></a>
+                        <a href="https://stealth-code.herokuapp.com/" rel="noopener noreferrer"  target="_blank"><i class="fa fa-external-link" ></i></a>
                         {/* <a href="#!"><i class="fa fa-facebook"></i></a> */}
                     </p>
 
@@ -45,9 +45,9 @@ return (
     <div class="col-md-4">
         <div class="team-member">
             <figure class="effect-zoe">
-                {/* <div class="project-photo">
-                    <img src="assets/parkBook.png" alt="Rachel James Johnes" class="img-responsive"/>
-                </div> */}
+                <div class="project-photo">
+                    <img src="assets/parkBook.png" alt="Rachel James Johnes" width="400" class="img-responsive"/>
+                </div>
                 <div class="team-attrs">
                     <div class="team-name font-accident-two-bold-italic">ParkBook</div>
                     <div class="team-position">JS | HTML/CSS | EJS | SEQUELIZE | EXPRESS | NODE.JS</div>
@@ -57,8 +57,8 @@ return (
                 </div>
                 <figcaption>
                     <p class="icon-links">
-                        <a href="https://github.com/bgiorgi1/parkbook"><i class="fa fa-github" ></i></a>
-                        <a href="https://parkbook1.herokuapp.com/"><i class="fa fa-external-link" ></i></a>
+                        <a href="https://github.com/bgiorgi1/parkbook" rel="noopener noreferrer"  target="_blank"><i class="fa fa-github" ></i></a>
+                        <a href="https://parkbook1.herokuapp.com/" rel="noopener noreferrer"  target="_blank"><i class="fa fa-external-link" ></i></a>
                         {/* <a href="#!"><i class="fa fa-facebook"></i></a> */}
                     </p>
 
@@ -74,20 +74,20 @@ return (
     <div class="col-md-4">
         <div class="team-member">
             <figure class="effect-zoe">
-                {/* <div class="project-photo">
-                    <img src="https://bootdey.com/img/Content/avatar/avatar3.png" alt="Rachel James Johnes" class="img-responsive"/>
-                </div> */}
+                <div class="project-photo">
+                    <img src="assets/HealthfulPantry.png" alt="Rachel James Johnes" width="400" class="img-responsive"/>
+                </div>
                 <div class="team-attrs">
                     <div class="team-name font-accident-two-bold-italic">Healthful Pantry</div>
                     <div class="team-position">JS | HTML/CSS | REACT | MONGODB | EXPRESS | NODE.JS</div>
                 </div>
                 <div class="team-content small">
-                    Find tasty recipes, based off your current medical conditions, allergies and intolerances.
+                    Group project where you can find tasty recipes, based off your current medical conditions, allergies and intolerances.
                 </div>
                 <figcaption>
                     <p class="icon-links">
-                        <a href="https://github.com/charlenebatiste/the-healthful-pantry"><i class="fa fa-github" ></i></a>
-                        <a href="#!"><i class="fa fa-external-link" ></i></a>
+                        <a href="https://github.com/charlenebatiste/the-healthful-pantry" rel="noopener noreferrer"  target="_blank"><i class="fa fa-github" ></i></a>
+                        <a href="https://thehealthfulpantry.herokuapp.com/" rel="noopener noreferrer"  target="_blank"><i class="fa fa-external-link" ></i></a>
                         {/* <a href="#!"><i class="fa fa-facebook"></i></a> */}
                     </p>
 
