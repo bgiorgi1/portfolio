@@ -20,11 +20,12 @@ const Skills = (props) => {
             <div className="slashes">// </div> HTML
             <div className="slashes">// </div> CSS
             <div className="slashes">// </div> Markdown
+            <div className="slashes">// </div>PHP
            
           </li>
           <li className="skills_item">
             <div className="item_title">Libraries & Frameworks: </div>React
-            <div className="slashes">// </div> Django
+            <div className="slashes">// </div> Wordpress
             <div className="slashes">// </div>Express
             <div className="slashes">// </div>Node.js
             <div className="slashes">// </div>Mongoose
