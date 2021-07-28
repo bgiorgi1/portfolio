@@ -1,0 +1,10 @@
+.FooterSection {
+  background-color: #10375c;
+  color: #f4f6ff;
+  padding: 3vh 0;
+}
+.content {
+  font-weight: 800;
+  font-size: 1.2em;
+  text-align: center;
+}

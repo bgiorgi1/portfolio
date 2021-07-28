@@ -3,7 +3,7 @@ import "./YouTube.css"
 
 function YouTube(props) {
     return <div className="YouTube" id="Youtube">
-        <h1>Codesplaining</h1>
+        <h1>Code, Explained</h1>
         <article className="YTbody">
             I've found content creation to be a great way to continue my learnings.  Check out my <a href="https://www.youtube.com/channel/UCi_Pg4C5tnf4qXiU-JZew0A">channel</a> to see how I codesplain all of my projects.
         </article>

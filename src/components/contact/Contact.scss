@@ -1,23 +1,35 @@
-.Contact{
-  background-color: #F4F6FF;
+.Contact {
+  background-color: #f4f6ff;
   color: #7c2629;
   text-align: center;
   padding-top: 3em;
-  padding-bottom: 4em;
+  padding-bottom: 2em;
 }
 
-.ContactBody{
+.ContactBody {
   color: black;
   // margin-bottom: 4em;
 }
 
-.email-link{
-  margin-top: 20px;
-  border: 1px solid;
-  border-color: #7c2629;
-  color: black;
+// .email-link {
+//   margin-top: 20px;
+//   border: 1px solid;
+//   border-color: #7c2629;
+//   color: black;
+//   text-decoration: none;
+//   background-color: #f4f6ff;
+//   padding: 20px 10px;
+//   margin-bottom: 50px;
+// }
+
+.icon-links {
+  color: #fff;
+  font-size: 50px;
+  display: inline-block;
+  padding: 15px 20px;
   text-decoration: none;
-  background-color: #F4F6FF;
-  padding: 20px 10px;
-  margin-bottom: 50px;
+}
+
+a.social {
+  text-decoration: none;
 }
